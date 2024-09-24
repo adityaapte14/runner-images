@@ -19,3 +19,5 @@ jobs:
     image_type: ubuntu2404
     image_readme_name: Ubuntu2404-Readme.md
     image_template_name: ubuntu-24.04.pkr.hcl
+    agent_pool: 'windows-latest'
+    create_release: false
